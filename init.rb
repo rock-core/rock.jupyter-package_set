@@ -8,7 +8,7 @@ Autoproj::CLI::Main.register_post_command_hook(:update) do
     begin
         env = Autoproj.workspace.full_env.resolved_env
         full_path = Autoproj.workspace.which('iruby')
-        unless system(env, full_path, 'register')
+        unless system(env, full_path, 'register', '--force')
             raise "failed to register iruby"
         end
     rescue Autoproj::ExecutableNotFound
