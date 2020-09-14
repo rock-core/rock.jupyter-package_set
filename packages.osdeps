@@ -18,8 +18,12 @@ jupyter-ruby:
     gem:
         - cztop
         - iruby
-        - nyaplot
 
+daru:
+  gem:
+    - daru
+    - erector
+    - nyaplot
 
 rock.jupyter.osdeps:
     osdep:
