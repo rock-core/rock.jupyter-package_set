@@ -16,6 +16,7 @@ jupyter-ruby:
     gem:
         - cztop
         - iruby
+        - erector
 
 daru:
   gem:
