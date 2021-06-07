@@ -13,8 +13,6 @@ jupyter-ruby:
         - autoconf
         - pkg-config
         - libtool
-    osdep:
-        - jupyter
     gem:
         - cztop
         - iruby
@@ -27,4 +25,5 @@ daru:
 
 rock.jupyter.osdeps:
     osdep:
+        - jupyter
         - jupyter-ruby
