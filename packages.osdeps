@@ -13,11 +13,10 @@ jupyter-ruby:
         - autoconf
         - pkg-config
         - libtool
-    osdep:
-        - jupyter
     gem:
         - cztop
         - iruby
+        - erector
 
 daru:
   gem:
@@ -27,4 +26,5 @@ daru:
 
 rock.jupyter.osdeps:
     osdep:
+        - jupyter
         - jupyter-ruby
