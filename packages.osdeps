@@ -13,6 +13,7 @@ jupyter-ruby:
         - autoconf
         - pkg-config
         - libtool
+        - libyaml-dev
     gem:
         - cztop
         - iruby
