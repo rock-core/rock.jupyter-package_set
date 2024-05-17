@@ -18,6 +18,8 @@ jupyter-ruby:
         - cztop
         - iruby
         - erector
+        - name: irb
+          version: "< 1.13.0"
 
 daru:
   gem:
