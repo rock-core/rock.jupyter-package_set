@@ -4,6 +4,7 @@ unless Autoproj.config.get("jupyter.external", false)
     jupyter_path = File.join(Autoproj.workspace.prefix_dir, 'jupyter', 'share')
     env_set 'JUPYTER_PATH', jupyter_path
     env_set 'IPYTHONDIR', jupyter_path
+    env_set 'JUPYTER_DATA_DIR', jupyter_path
 
     Autoproj::CLI::Main.register_post_command_hook(:update) do
         begin
